@@ -6,6 +6,9 @@ import Welcome from "@/components/Welcome";
 import User from "@/components/User";
 import Description from "@/components/Description";
 import Pet from "@/components/Pet"
+import Counter from "@/components/Counter";
+import UserForm from "@/components/UserForm";
+import Tasklist from "@/components/Tasklist";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +36,9 @@ export default function Home() {
         <User/>
         <Description city="Registro" age ={18} email ="larissa@email.com"/>
         <Pet name="Nina" breed="Vira lata" age = {12} />
+        <Counter/>
+        <UserForm/>
+        <Tasklist/>
       </main>
     </>
   );
